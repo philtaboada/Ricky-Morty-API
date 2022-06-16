@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import Test from '../Assests/test.jpg'
 
 const Cards = ({ resident }) => {
     const [card, setCard] = useState()
